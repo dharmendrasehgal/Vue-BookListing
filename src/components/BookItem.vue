@@ -1,10 +1,4 @@
-<template>
-  <div>
-    <ul>
-      <li>{{ book.title }}:{{ book.author }}</li>
-    </ul>
-  </div>
-</template>
+<template><li>{{ book.title }}:{{ book.author }}</li></template>
 <script>
   export default {
     name: 'BookItem',
